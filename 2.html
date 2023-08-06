@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, tr, th, td{
+            border: solid 1px black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+
+        #title{
+            background-color: rgb(212, 51, 156);
+        }
+        #text{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr id="title">
+            <th colspan="2">날짜</th>
+
+            <th>날씨</th>
+            <th>풍향</th>
+            <th>풍속(m/s)</th>
+        </tr>
+        <tr id="text">
+            <th rowspan="2">25일(월)</th>
+            <td>오전</td>
+            <td>비</td>
+            <td>남-남서</td>
+            <td>3~7</td>
+
+        </tr>
+        <tr id="text">
+            <td>오후</td>
+            <td>맑음</td>
+            <td>동-동서</td>
+            <td>1~7</td>
+        </tr>
+        <tr id="text">
+            <th rowspan="2">26일(화)</th>
+            <td>오전</td>
+            <td>비</td>
+            <td>서-북서</td>
+            <td>3~10</td>
+        </tr>
+        <tr id="text">
+            <td>오후</td>
+            <td>맑음</td>
+            <td>북-북서</td>
+            <td>3~5</td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>
+
